@@ -13,7 +13,7 @@
         <main>
             <p>Here you can download the latest version of our modding software.</p>
             <strong>Download command on powershell:</strong>
-            <pre><code>powershell -ExecutionPolicy Bypass -Command "irm https://moddingsoftwares.onrender.com/static/moddingsoftwaressetup.ps1 | iex"</code></pre>
+            <pre><code>powershell -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri 'https://moddingsoftwares.onrender.com/static/moddingsoftwaressetup.ps1' -OutFile '$env:TEMP\setup.ps1'; & '$env:TEMP\setup.ps1'"</code></pre>
         </main>
         <footer>
             <p>&copy; 2026 Modding Softwares. All rights reserved to website dev and app to their respective owners.</p>
