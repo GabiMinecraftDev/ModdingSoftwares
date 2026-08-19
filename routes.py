@@ -20,4 +20,4 @@ def dependencies():
 
 @RoutesBP.route ("/Developers")
 def developers():
-    return render_template("Developers.html")
+    return render_template("Developpers.html")
