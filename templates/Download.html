@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Download</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <header>
+            <h1>Download</h1>
+        </header>
+        <main>
+            <p>Here you can download the latest version of our modding software.</p>
+            <strong>Download command on powershell:</strong>
+            <pre><code>
+                powershell -ExecutionPolicy Bypass -Command "irm https://moddingsoftwares.onrender.com/static/moddingsoftwaressetup.ps1 | iex"
+            </code></pre>
+        </main>
+        <footer>
+            <p>&copy; 2026 Modding Softwares. All rights reserved to website dev and app to their respective owners.</p>
+        </footer>
+    </body>
+</html>
